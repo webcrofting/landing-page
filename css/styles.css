@@ -5,7 +5,16 @@ body {
   text-align: center;
 }
 
+a, a:visited, a:active {
+  color: #888888;
+  text-decoration: none;
 
+}
+
+a:hover {
+  color: #888888;
+  text-decoration: underline;
+}
 
 #logo {
   background-image: url('../img/logo.png');
@@ -17,11 +26,18 @@ body {
 }
 
 
-#tagline {
+#tagline, #contact {
     
     margin-top: 2em;
     font-size: 2em;
 }
+
+#contact {
+    
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
 
 #imprint {
     
