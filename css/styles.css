@@ -1,1 +1,18 @@
 /* Nothing yet */
+
+#logo {
+  background-image: url('../img/logo.png');
+  background-size: auto 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: 5em;
+}
+
+
+#tagline {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2em;
+}
